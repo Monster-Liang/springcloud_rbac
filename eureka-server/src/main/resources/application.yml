@@ -1,0 +1,8 @@
+server:
+  port: 8001
+eureka:
+  client:
+    registerWithEureka: false #其本身作为注册中心，所有设置为：不显示在注册中心
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8771/eureka/
